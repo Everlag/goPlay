@@ -1,0 +1,21 @@
+# gnuboy.rc
+
+set sdl_showfps 2
+set scale 4
+set density 4
+set vmode 1280 720 16
+set fullscreen 0
+set sound 0
+joy_device 0
+framelen 100
+
+unbindall
+bind esc quit
+bind k +a
+bind l +b
+bind m +start
+bind n +select
+bind w +up
+bind s +down
+bind a +left
+bind d +right
